@@ -1,0 +1,13 @@
+[DEFAULT]
+ignoreip = 127.0.0.1
+bantime = 3600
+maxretry = 3
+[ssh]
+enabled = true
+port = ssh
+filter = sshd
+logpath = /var/log/secure
+[sshd-ddos]
+enabled = true
+port = ssh
+bantime = 172800
